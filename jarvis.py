@@ -5,7 +5,6 @@ import speech_recognition as sr # pip install SpeechRecognition
 
 engine = pyttsx3.init()
 
-
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
